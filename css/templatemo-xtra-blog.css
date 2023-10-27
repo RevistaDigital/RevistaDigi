@@ -33,6 +33,10 @@ body {
     margin: 0 0 0 18%;
 }
 
+h3, h2, h1 {
+    text-align:justify ;
+}
+
 p,
 span {
     color: #999;
@@ -179,6 +183,10 @@ a {
 .chatscreem{
     margin: 0 18.80%;
     width: 100%;
+}
+
+.bounceee{
+    animation: bounce-left .8s both;
 }
 
 .rayita {
@@ -391,8 +399,8 @@ ul {
 }
 
 .container4 {
-    width: 450px;
-    height: 150px;
+    width: 100%;
+    height: 80%;
     background-color: lightgray;
     display: inline-block;
     /* Cambio a inline-block */
